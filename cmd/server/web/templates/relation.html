@@ -1,0 +1,24 @@
+{{define "content"}}
+<table border="1">
+    <tr>
+        <th>Concert dates</th>
+        <th>Concert Locations</th>
+    </tr>
+    {{ range $date, $locations := .DatesLocations }}
+    <tr>
+        <td>{{ $date }}</td>
+        <td>
+            <ul>
+                {{ range $location := $locations }}
+                <ul>{{ $location }}</ul>
+                {{ end }}
+            </ul>
+        </td>
+    </tr>
+    {{ end }}
+    <div class="button-card">
+        <button onclick="location.href='/artist/?id={{.ID}}'">Back to Artist Details</button>
+    
+    </div>
+</table>
+{{end}}
