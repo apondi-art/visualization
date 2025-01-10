@@ -1,3 +1,3 @@
 module learn.zone01kisumu.ke/git/quochieng/groupie-tracker
 
-go 1.23.2
+go 1.18
