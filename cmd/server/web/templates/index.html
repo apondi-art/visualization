@@ -2,12 +2,12 @@
 {{define "content"}}
 <div class="artist-grid">
   {{range .}}
-  <div class="artist-card">
-    <a href="/artist/?id={{.Artist.ID}}">
+  <a href="/artist/?id={{.Artist.ID}}">
+    <div class="artist-card">
       <img src="{{.Artist.Image}}" alt="{{.Artist.Name}}" />
-    </a>
-    <h2>{{.Artist.Name}}</h2>
-  </div>
+      <h2>{{.Artist.Name}}</h2>
+    </div>
+  </a>
   {{end}}
 </div>
 {{end}}

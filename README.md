@@ -32,7 +32,7 @@ This project focuses on retrieving and displaying the following key elements fro
 1. Clone the repository:
 
    ```bash
-   git clone https://learn.zone01kisumu.ke/git/quochieng/groupie-tracker.git
+   git clone https://learn.zone01kisumu.ke/git/fgitonga/groupie-tracker-visualizations.git
    ```
 
 2. Navigate to the project directory:
@@ -82,7 +82,7 @@ Contributions are welcome! If you would like to contribute:
 ## Authors
 
 - Quinter Ochieng
-- Mokwa Moffat
+- Fred Gitonga
 
 
 ## License

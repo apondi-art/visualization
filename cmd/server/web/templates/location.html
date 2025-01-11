@@ -3,7 +3,7 @@
     <table>
         <thead>
             <tr>
-                <th> Concert locations</th>
+                <th> Concert Locations</th>
             </tr>
         </thead>
         <tbody>
@@ -13,9 +13,9 @@
             </tr>
             {{end}}
         </tbody>
+        <div class="button-card">
+            <button onclick="location.href='/artist/?id={{.ID}}'">Back to Artist Details</button>
+        </div>
     </table>
-    <div class="button-card">
-        <button onclick="location.href='/artist/?id={{.ID}}'">Back to Artist Details</button>
-    </div>
 </div>
 {{end}}

@@ -1,21 +1,26 @@
 {{define "content"}}
 <div>
-    <table>
-        <thead>
-            <tr>
-                <th>Concert dates</th>
-            </tr>
-        </thead>
-        <tbody>
-            {{range .Dates}}
-            <tr>
-                <td>{{.}}</td>
-            </tr>
-            {{end}}
-        </tbody>
-    </table>
-    <div class="button-card">
-        <button onclick="location.href='/artist/?id={{.ID}}'">Dates</button>
-    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concert Dates</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{range .Dates}}
+                <tr>
+                    <td>{{.}}</td>
+                </tr>
+                {{end}}
+            </tbody>
+            <div class="button-card">
+                <button onclick="location.href='/artist/?id={{.ID}}'">Back To Artist Details</button>
+            </div>
+        </div>
+        </table>
 </div>
+
+ 
+
 {{end}}
